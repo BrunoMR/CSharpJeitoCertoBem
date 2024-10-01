@@ -1,0 +1,6 @@
+﻿services:
+  csharpjeitocerto:
+    image: csharpjeitocerto
+    build:
+      context: .
+      dockerfile: CSharpJeitoCerto/Dockerfile
